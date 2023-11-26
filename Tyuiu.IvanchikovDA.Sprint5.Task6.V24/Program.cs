@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.IvanchikovDA.Sprint5.Task5.V23.Lib;
+using Tyuiu.IvanchikovDA.Sprint5.Task6.V24.Lib;
 
-namespace Tyuiu.IvanchikovDA.Sprint5.Task5.V23
+namespace Tyuiu.IvanchikovDA.Sprint5.Task6.V24
 {
     class Program
     {
@@ -16,20 +16,18 @@ namespace Tyuiu.IvanchikovDA.Sprint5.Task5.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Чтение набора данных из текстового файла                          *");
-            Console.WriteLine("* Задание 5                                                               *");
-            Console.WriteLine("* Вариант #23                                                             *");
+            Console.WriteLine("* Задание 6                                                               *");
+            Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнил: Иванчиков Дмитрий Александрович | ПКТБ-23-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Найти минимальное вещественное число в файле.                           *");
-            Console.WriteLine("* Полученный результат вывести на консоль                                 *");
-            Console.WriteLine("* У вещественных значений округлить до трёх знаков после запятой.         *");
+            Console.WriteLine("* Найти количество пятизначных чисел в заданной строке.                   *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = @"C:\DataSprint5\InPutDataFileTask4V30.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V24.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
